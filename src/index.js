@@ -33,9 +33,8 @@ const popUpImageClose = popUpImage.querySelector(".popup-image__close");
 // const editFormAbout = editForm.elements.userAbout;
 const serverUrl =
   NODE_ENV === "development"
-  // ? "http://praktikum.tk/cohort6"
-   ? "https://nomoreparties.co/cohort6"
-   : "https://praktikum.tk/cohort6";
+   ? "http://nomoreparties.co/cohort6"
+   : "https://nomoreparties.co/cohort6";
 
 
 const api = new Api({
